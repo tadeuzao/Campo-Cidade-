@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Cidade e o Campo - Uma Relação de Dependência</title>
+    <style>
+        :root {
+            --primary-color: #4a7c59;
+            --secondary-color: #f8f9fa;
+            --accent-color: #d4a59a;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: var(--secondary-color);
+        }
+        
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        
+        .subtitle {
+            font-style: italic;
+            margin-top: 0.5rem;
+        }
+        
+        .hero-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            margin: 2rem 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        section {
+            padding: 2rem 0;
+        }
+        
+        .section-title {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 1.5rem;
+            flex: 1 1 300px;
+            transition: transform 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .card h3 {
+            color: var(--primary-color);
+            margin-top: 0;
+        }
+        
+        .card-icon {
+            font-size: 2rem;
+            color: var(--accent-color);
+            margin-bottom: 1rem;
+        }
+        
+        .interdependence {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+        }
+        
+        .interdependence h2 {
+            color: white;
+        }
+        
+        .testimonials {
+            background-color: var(--secondary-color);
+        }
+        
+        blockquote {
+            font-style: italic;
+            padding: 1rem;
+            border-left: 4px solid var(--accent-color);
+            background: white;
+            margin: 1rem 0;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .card {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>A Cidade e o Campo</h1>
+            <p class="subtitle">Uma relação de interdependência essencial</p>
+        </div>
+    </header>
+    
+    <main class="container">
+        <img src="https://images.unsplash.com/photo-1526779259212-939e64788e3c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" alt="Paisagem rural e urbana integradas" class="hero-image">
+        
+        <section>
+            <h2 class="section-title">Introdução</h2>
+            <p>Desde os primórdios da civilização, a relação entre o campo e a cidade tem sido fundamental para o desenvolvimento humano. Enquanto o campo fornece os recursos naturais essenciais para a sobrevivência, a cidade oferece infraestrutura, tecnologia e mercados que impulsionam a economia rural.</p>
+        </section>
+        
+        <section>
+            <h2 class="section-title">Como o Campo Sustenta a Cidade</h2>
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-icon">🌾</div>
+                    <h3>Alimentos Frescos</h3>
+                    <p>O campo é a fonte primária de alimentos para a população urbana, fornecendo grãos, frutas, verduras e proteínas animais essenciais para a nutrição diária.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">💧</div>
+                    <h3>Recursos Hídricos</h3>
+                    <p>As áreas rurais protegem nascentes e mananciais que abastecem as cidades, garantindo água potável para milhões de pessoas.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">🌳</div>
+                    <h3>Matérias-Primas</h3>
+                    <p>Madeira, fibras naturais, minerais e outros recursos extraídos no campo são a base para indústrias urbanas.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="interdependence">
+            <h2 class="section-title">Uma Relação de Mão Dupla</h2>
+            <p>Assim como o campo sustenta a cidade, a área urbana é essencial para o desenvolvimento rural, fornecendo tecnologia, educação, saúde e mercados para os produtos agrícolas.</p>
+        </section>
+        
+        <section>
+            <h2 class="section-title">Como a Cidade Sustenta o Campo</h2>
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-icon">🛒</div>
+                    <h3>Mercado Consumidor</h3>
+                    <p>As cidades concentram a população que consome os produtos agrícolas, criando demanda e valorizando a produção rural.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">🏥</div>
+                    <h3>Serviços Essenciais</h3>
+                    <p>Hospitais, escolas e universidades urbanas atendem a população rural, oferecendo serviços especializados.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">🔬</div>
+                    <h3>Tecnologia e Inovação</h3>
+                    <p>Pesquisas desenvolvidas em centros urbanos resultam em máquinas agrícolas, fertilizantes e técnicas que aumentam a produtividade rural.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="testimonials">
+            <h2 class="section-title">Vozes do Campo e da Cidade</h2>
+            <blockquote>
+                "Nossa fazenda alimenta milhares de pessoas na cidade, mas dependemos dos equipamentos e conhecimentos que vêm de lá para continuar produzindo com qualidade." - João, produtor rural
+            </blockquote>
+            <blockquote>
+                "Como nutricionista urbana, sei que a saúde da população começa no campo, com alimentos frescos e nutritivos. Mas o campo também precisa da nossa expertise em nutrição e segurança alimentar." - Maria, nutricionista
+            </blockquote>
+        </section>
+        
+        <section>
+            <h2 class="section-title">Desafios e Oportunidades</h2>
+            <p>Apesar dessa interdependência, existem tensões entre campo e cidade que precisam ser superadas. O êxodo rural, a desconexão com a origem dos alimentos e a pressão urbana sobre áreas rurais são desafios que exigem políticas integradas de desenvolvimento territorial.</p>
+            <p>Iniciativas como agricultura urbana, feiras de produtores rurais nas cidades e programas de conexão campo-cidade são exemplos de como fortalecer essa relação vital.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>© 2023 A Cidade e o Campo - Todos os direitos reservados</p>
+            <p>Esta página destaca a relação simbiótica entre áreas urbanas e rurais, essencial para um futuro sustentável.</p>
+        </div>
+    </footer>
+</body>
+</html>
